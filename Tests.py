@@ -24,16 +24,3 @@ def test_yandex_picture(browser_options):
     assert first_pic != second_pic, "did not switch to another picture"  # Проверяем что открылась другая картинка
     back_pic = yandex_search.test_back_picture()  # Переход назад
     assert back_pic == first_pic, "did not switch to first picture"  # Проверяем переход на первую картинку
-
-
-
-
-
-
-
-
-
-
-    
-
-
